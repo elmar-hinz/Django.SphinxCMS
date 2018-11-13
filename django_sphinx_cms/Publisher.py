@@ -12,7 +12,7 @@ class Publisher:
         self._builder_type = 'htmlcontent'
         self._suffix = '.html'
         self._public_base = Path('public/docs')
-        self._template = 'django_sphinx_cms/simple.html'
+        self._template = 'django_sphinx_cms/sphinx.html'
 
     def publish(self):
         for pickle in self.list_pickles():

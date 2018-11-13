@@ -1,0 +1,3 @@
+include README.rst
+recursive-include django_sphinx_cms *
+include django_sphinx_cms/templates/django_sphinx_cms/sphinx.html
